@@ -1,0 +1,92 @@
+h1{
+  text-align: center;
+  color: rgb(123, 80, 75);
+}
+.link {
+  /* background: #000; */
+}
+
+.link a{
+  color: sandybrown;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+
+.images img{
+  width: 300px;
+  /* height: 20%; */
+  /* border: 2px solid salmon; */
+}
+
+.class1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0px 0px 0px;
+  /* background: #000; */
+}
+.studentData{
+  /* background: #b33e3e; */
+  margin: 50px 0px 5px 50px;
+  width: 400px;
+}
+button{
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+  background:#f44336;
+  color: white;
+  border: none;
+}
+button:hover{
+  background: #800000;
+  box-shadow: 2px;
+  border-radius: 7px;
+}
+.row{
+  text-align: center;
+  /* background: #000; */
+}
+th{
+  color: #04AA6D;
+  font-weight: 800;
+}
+
+#pic{
+  height: 300px;
+  /* margin: 50px 0px 100px 0px; */
+}
+.class2{
+  /* height: 300px; */
+ margin: 50px 0px 0px 40px;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:  500px;
+  margin: 50px 0px 0px 50px;
+  /* background: #c9f970; */
+}
+
+#counter {
+  font-size: 24px;
+  text-align: center;
+  margin: 0px 40px 0px 40px;
+  padding: 5px 70px 6px 70px;
+  color: rgb(0, 0, 0);
+  background: #9e9f9d;
+  border-radius: 13px;
+  /* padding: 20px; */
+}
+
+.middle button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

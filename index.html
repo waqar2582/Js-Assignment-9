@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Assignment 10</title>
+</head>
+<body>
+    <h1>Assignment Chapter 43 to 48</h1>
+  <div class="link">
+    <a href="" onclick="alert('This is alert')">Mobile Phones</a>
+  </div>
+  <div class="class1">
+    <div class="images">
+      <a href=""> <img src="./0508c983c4996e52fdf931d581b2171c.jpg_750x750.jpg_.webp" alt="" onclick="disp()"></a>
+    </div>
+    <div class="images">
+      <a href=""> <img src="./apple-iphone-14-pro-max-pakistan-priceoye-4hr9p-270x270.webp" alt="" onclick="disp()"></a>
+     
+    </div>
+    <div class="images">
+      <a href=""><img src="./OnePlus-10-PRO-EEZEPC-1.jpg"onclick="disp()"></a>
+      
+    </div>
+    <div class="images">
+      <a href=""><img src="./pasted image 0.png" alt="" onclick="disp()"></a>
+    </div>
+  </div>
+
+  <table class="studentData">
+<tr class="rowHeading">
+  <th>Index</th>
+  <th>Name</th>
+  <th>Class</th>
+</tr>
+<tr class="row" id="row0">
+  <td>0</td>
+  <td>Waqar</td>
+  <td>10</td>
+  <td><button onclick="removeElement(this)">Delete</button></td>
+</tr>
+<tr class="row " id="row1">
+  <td>1</td>
+  <td>Anwar</td>
+  <td>9</td>
+  <td><button onclick="removeElement(this)">Delete</button></td>
+</tr>
+<tr class="row " id="row2">
+  <td>2</td>
+  <td>Shehzad</td>
+  <td>8</td>
+  <td><button onclick="removeElement(this)">Delete</button></td>
+</tr>
+<tr class="row " id="row3">
+  <td>3</td>
+  <td>Waseem</td>
+  <td>7</td>
+  <td><button onclick="removeElement(this)" >Delete</button></td>
+</tr>
+<tr class="row " id="row4">
+  <td>4</td>
+  <td>Fahad</td>
+  <td>9</td>
+  <td><button onclick="removeElement(this)">Delete</button></td>
+</tr>
+  </table>
+
+  <div class="class2">
+    <img src="./0508c983c4996e52fdf931d581b2171c.jpg_750x750.jpg_.webp" alt="" id="pic" onmouseover="replaceImage()"onmouseout="restoreImage()" >
+  </div>
+  <div class="middle">
+    <button onclick="increaseCounter()">Increase</button>
+    <div id="counter">0</div>
+    <button onclick="decreaseCounter()">Decrease</button>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
+
