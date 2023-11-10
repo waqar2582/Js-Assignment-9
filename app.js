@@ -9,12 +9,12 @@ function removeElement(button){
 
 function replaceImage(){
   // this.width =20%
-  document.getElementById("pic").src="./OnePlus-10-PRO-EEZEPC-1.jpg"
+  document.getElementById("pic").src=".//assets/OnePlus-10-PRO-EEZEPC-1.jpg"
 }
  
 function restoreImage(){
   // this.src="./OnePlus-10-PRO-EEZEPC-1.jpg";
-  document.getElementById("pic").src="./0508c983c4996e52fdf931d581b2171c.jpg_750x750.jpg_.webp"
+  document.getElementById("pic").src=".//assets/0508c983c4996e52fdf931d581b2171c.jpg_750x750.jpg_.webp"
 }
 
 let counterValue = 0;
